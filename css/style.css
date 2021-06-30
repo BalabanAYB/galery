@@ -985,10 +985,12 @@ svg path {
 }
 
 .catalog__info_images {
+   max-width: 720px;
    width: 39.063vw;
    min-height: 24.4793vw;
    background-repeat: no-repeat;
    background-size: cover;
+   background-position: center;
 }
 
 .mens1 {
