@@ -793,28 +793,15 @@ svg path {
 }
 
 .about-us__card {
-   display: block;
+   display: flex;
+   justify-content: center;
+   align-items: center;
    width: 18.2298vw;
    height: 18.2298vw;
    margin-right: 2.604167vw;
    margin-bottom: 2.604167vw;
    background-size: cover;
    background-repeat: no-repeat;
-}
-
-.about-us__card:hover::before {
-   display: block;
-   width: 15.625vw;
-   height: 15.625vw;
-   margin-top: 1.302084vw;
-   margin-left: 1.302084vw;
-   position: absolute;
-   z-index: 3;
-   content: '';
-   background: url('../img/galery/gallery-hover.png');
-   background-repeat: no-repeat;
-   background-size: contain;
-   transition: 0.2s;
 }
 
 .about-us__card:active::after {
@@ -829,11 +816,11 @@ svg path {
    background: url('../img/galery/gallery-hover.png');
    background-repeat: no-repeat;
    background-size: contain;
-   background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)), url(A5A9A825-44DE-45C8-8EBD-70ED43DAA3B7.jpg);
+   background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)), url('A5A9A825-44DE-45C8-8EBD-70ED43DAA3B7.jpg');
    border: 2px solid #D1A9F0;
    box-sizing: border-box;
    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-   transition: 0.2s;
+   transition: 0.8s;
 }
 
 .carousel {
